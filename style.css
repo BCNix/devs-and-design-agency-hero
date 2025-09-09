@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* box-sizing reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* end box-sizing reset */
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    color: #020202;
+    font-weight: 450;
+    margin: 0;
+}
+
+main{
+    position: relative;
+    width: 100%;
+}
+
+h1{
+    margin: 0;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.bg-image{
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./image/faded-office.png");
+}
+
+
+.main-hero{
+    width: 450px;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
+.main-hero span{
+    border-bottom: 6px solid #0ea5e9;
+}
+
+.btn-cta {
+    width: 200px;
+    border: none;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    background-color: #0ea5e9;
+    cursor: pointer;
+}
